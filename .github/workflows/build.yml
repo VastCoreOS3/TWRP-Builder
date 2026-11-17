@@ -22,7 +22,7 @@ on:
       DEVICE_PATH:
         description: "Device path device/"
         required: true
-        default: "device/xiaomi/alioth"
+        default: "xiaomi/alioth"
       DEVICE_NAME:
         description: "Device name"
         required: true
