@@ -14,7 +14,7 @@ on:
       DEVICE_TREE_URL:
         description: "Device tree url"
         required: true
-        default: "https://github.com/YuKongA/twrp_device_xiaomi_sm8850"
+        default: "https://github.com/VastCoreOS3/TWRP-Device-Tree.git"
       DEVICE_TREE_BRANCH:
         description: "Device tree branch"
         required: true
@@ -22,11 +22,11 @@ on:
       DEVICE_PATH:
         description: "Device path device/"
         required: true
-        default: "xiaomi/sm8850"
+        default: "device/xiaomi/alioth"
       DEVICE_NAME:
         description: "Device name"
         required: true
-        default: "sm8850"
+        default: "alioth"
       LUNCH_TARGET:
         description: "lunch twrp_ (default same as device name)"
         required: false
